@@ -1,0 +1,61 @@
+h1 { 
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+} 
+
+header {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+ul {
+    list-style-type: none; /* Remove a bolinha padrão da lista não ordenada */
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 30;
+    padding: 30;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #f1c1e2;
+    padding: 15px;
+    text-align: left;
+}
+
+th.item-col, td.item-col {
+    width: 15%; /* Largura para a coluna de Item */
+}
+
+th.descricao-col, td.descricao-col {
+    width: 55%; /* Largura para a coluna de Descrição */
+}
+
+th.preco-col, td.preco-col {
+    width: 15%; /* Largura para a coluna de Preço */
+}
+
+th.foto-col, td.foto-col {
+    width: 15%; /* Largura para a coluna de Foto */
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: white; 
+}
+
+
+
